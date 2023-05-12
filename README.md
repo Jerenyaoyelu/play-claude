@@ -14,7 +14,7 @@
 2. 免注册在 slack 上使用（但要注册 slack）。点击 👆 的链接中的 Try Claude in Slack 按钮按步骤进行即可。
 3. 也可以直接加入我的 slack 工作区，按照以下步骤：
 
-- 点击链接加入： https://join.slack.com/t/w1683870282-qfg615495/shared_invite/zt-1v1d0xnc3-Fi1xBxjTwNnkSDeUnLbE1A （30 天有效）
+- 点击链接加入： https://join.slack.com/t/w1683870292-ldv430599/shared_invite/zt-1vcb3k2y8-_QC9EwctLYATE55bxH9jnA （30 天有效）
 - 加入工作区后，加入#全体频道
 - 直接@claude 就可和它对话啦
 
