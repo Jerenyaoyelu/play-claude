@@ -2,13 +2,40 @@
 
 ![](./assets/Claude.webp)
 
+## Outline
+
+- [Claude 自我介绍](#claude-introduction)
+- [对比 Chatgpt 优势](#compare-with-chatgpt)
+- [如何使用](#how-to-use)
+- [文档 QA 能力](#feed-docs)
+  - [如何通过邮件建立起基于文档 QA 的对话能力](#email)
+- [视频 QA 能力](#feed-video)
+- [Prompt 小技巧](#prompt-trikcs)
+
 ## Claude 自我介绍
+
+<!-- #claude-introduction -->
 
 “我是 Claude,一款人工智能助手。我由人工智能公司 Anthropic 开发。我能够理解自然语言并回答问题。Anthropic 花了大量时间训练我成为一款安全可靠且讨人喜欢的 AI 系统。我致力于为您提供最佳服务与体验 。我不断学习与进步,希望能成为您生活中不可或缺的一部分。” --- Claude
 
 官网：https://www.anthropic.com/product
 
+## 对比 Chatgpt 优势
+
+<!-- #compare-with-chatgpt -->
+
+对比 Chatgpt 的优势
+
+1. Claude 有更简单的使用渠道（可通过 slack 直接免注册使用）只要翻墙能使用 slack 就可以使用 Claude 的能力
+2. 基于材料（文档/视频等）的 QA 能力（这是 chatgpt 所不具有的）
+3. 其他 chatgpt 所具有的基本的问答能力（体验上和 chatgpt 没有太大差别）
+4. 比 chatgpt 更加的稳定，不会时不时的断连
+5. 得益于 slack 的天然分享能力，通过频道下的所有人都可以看到相互的对话，更像一个有一个 ai 助手的聊天室
+6. 丰富的文档[投喂方式](#feed-docs)
+
 ## 如何使用
+
+<!-- #how-to-use -->
 
 目前 Clause 还在公测阶段，已知的有以下方式：
 
@@ -23,6 +50,8 @@
 **⚠️ 注意：使用 Claude 本身不需要向使用 Chatgpt 一样繁琐，但是需要翻墙，因为要借助 Slack 的能力，而 Slack 在中国大陆得翻墙才能使用**
 
 ## 文档 QA 能力
+
+<!-- #feed-docs -->
 
 claude 具有基于所提供的文档上下文回答的能力，有以下几种常用方式可以向 claude 投喂文档：
 
@@ -60,7 +89,9 @@ claude 具有基于所提供的文档上下文回答的能力，有以下几种�
      - 若邮件中还包含了其他重要信息，也需要在对话中再次提及。
      - Claude 在确认已经成功接收和分析了你提供的文档之后会在对话中通知你，然后就可以展开后续基于文档的 QA 对话了。
 
-## 基于视频 QA 能力
+## 视频 QA 能力
+
+<!-- #feed-video -->
 
 Claude 是不能直接观看视频理解里面的内容的，要让它理解视频的内容可以通过以下手段：
 
@@ -73,6 +104,8 @@ Claude 是不能直接观看视频理解里面的内容的，要让它理解视�
 要想 Claude 解释一个完整的视频内容可能比较困难,特别是对复杂的话题。所以我们也可以采取上述多种方式相结合,分步骤来向它传达该视频信息，以帮助 Claude 更加全面的理解视频。
 
 ## Prompt 小技巧
+
+<!-- #prompt-trikcs -->
 
 1. 当给 Claude 投喂文档时如果需要 Claude 继续文档内容的上下文，请在当前回复对话下@它提问，若直接在频道的输入框内@提问，Claude 可能一下子就失去了记忆（文档上下文）
 2. 提问时尽量直白描述需求，否则 Claude 回答可能不是你想要的。举个例子 🌰
