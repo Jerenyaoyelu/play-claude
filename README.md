@@ -11,6 +11,7 @@
   - [如何通过邮件建立起基于文档 QA 的对话能力](#email)
 - [视频 QA 能力](#feed-video)
 - [Prompt 小技巧](#prompt-trikcs)
+- [AI 安全](#ai-safety)
 
 ## <h2 id="claude-introduction">Claude 自我介绍</h2>
 
@@ -105,3 +106,5 @@ Claude 是不能直接观看视频理解里面的内容的，要让它理解视�
    > **这一次我更加直白的描述了我的需求。**
 
    ![](./assets/dialog-2-1.png)
+
+   ## <h2 id="ai-safety">AI 安全</h2>
