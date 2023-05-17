@@ -12,6 +12,7 @@
   - [如何通过邮件建立起基于文档 QA 的对话能力](#email)
 - [视频 QA 能力](#feed-video)
 - [Prompt 小技巧](#prompt-trikcs)
+- [AI 的问题](#ai-problem)
 - [AI 安全](#ai-safety)
 
 ## <h2 id="claude-introduction">Claude 自我介绍</h2>
@@ -37,7 +38,8 @@
 
 对比 Chatgpt 的优势
 
-1. Claude 有更简单的使用渠道（可通过 slack 直接免注册使用）只要翻墙能使用 slack 就可以使用 Claude 的能力
+1. Claude 有更简单的使用渠道（可通过 slack 直接免注册使用）只要能使用 slack 就可以使用 Claude 的能力
+   > updates: 目前 slack 貌似不用翻墙也能使用了，这样的话等于 Claude 就不需要翻墙了，也没有 chatgpt 那么繁琐的注册流程
 2. 基于材料（文档/视频等）的 QA 能力（这是 chatgpt 所不具有的）
 3. 其他 chatgpt 所具有的基本的问答能力（体验上和 chatgpt 没有太大差别）
 4. 比 chatgpt 更加的稳定，不会时不时的断连
@@ -120,6 +122,19 @@ Claude 是不能直接观看视频理解里面的内容的，要让它理解视�
    > **这一次我更加直白的描述了我的需求。**
 
    ![](./assets/dialog-2-1.png)
+
+## <h2 id="ai-problem">AI 问题</h2>
+
+### 幻觉（hallucination）
+
+和 chatgpt 一样，Claude 回答有时候也会出现幻觉，编造一些没有的东西，看起来很像那么回事，其实是假的。
+
+### 胡说八道
+
+在使用基于文档 QA 的能力时，Claude 经常会编出一些文档里没有的东西，但是看起来又很真实，需要注意分辨。这项能力并不是完美的。举个例子 🌰：
+
+比方说我投喂了 langchain 官方文档，然后进行提问，Claude 开始胡扯了。
+![](./assets/cheat/bullshit-1.png)
 
 ## <h2 id="ai-safety">AI 安全</h2>
 
