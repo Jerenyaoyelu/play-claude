@@ -8,6 +8,8 @@
   - [能力列表](#capabilities)
 - [对比 Chatgpt 优势](#compare-with-chatgpt)
 - [如何使用](#how-to-use)
+  - [对话界面](#use-ui)
+  - [api 使用](#use-api)
 - [文档 QA 能力](#feed-docs)
   - [如何通过邮件建立起基于文档 QA 的对话能力](#email)
 - [视频 QA 能力](#feed-video)
@@ -48,6 +50,8 @@
 
 ## <h2 id="how-to-use">如何使用</h2>
 
+### <h3 id="use-ui">对话界面</h3>
+
 目前 Clause 还在公测阶段，已知的有以下方式：
 
 1. 在官网（👆 的链接）加入申请队伍（但是，好像有 bug，填写完申请提交后页面会自动刷新，也不知道有没有申请成功）
@@ -59,6 +63,10 @@
 - 直接@claude 就可和它对话啦
 
 **⚠️ 注意：使用 Claude 本身不需要向使用 Chatgpt 一样繁琐，但是需要翻墙，因为要借助 Slack 的能力，而 Slack 在中国大陆得翻墙才能使用**
+
+### <h3 id="use-api">api 使用</h3>
+
+[前往查看](./docs/API_usage.md)
 
 ## <h2 id="feed-docs">文档 QA 能力</h2>
 
